@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hackstrap Tools</title>
+
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+
+    <script  src="/static/main.js"></script> 
+
+
+</head>
+<body>
+    <div class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered justify-content-center" role="document">
+            <span class="fa fa-spinner fa-spin fa-3x"></span>
+            <div class="spinner-grow text-muted"></div>
+            <div class="spinner-grow text-primary"></div>
+            <div class="spinner-grow text-success"></div>
+            <div class="spinner-grow text-info"></div>
+            <div class="spinner-grow text-warning"></div>
+            <div class="spinner-grow text-danger"></div>
+            <div class="spinner-grow text-secondary"></div>
+            <div class="spinner-grow text-dark"></div>
+            <div class="spinner-grow text-light"></div>
+        </div>
+    </div>
+    <div class=" headP text-center btn-warning">
+        <h1>HACKSTRAP</h1>
+        <p>Apps And Tools</p>
+      </div>
+      <div class="container-fluid">
+            <div id="accordion">
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                            <h4><kbd>User Profile</kbd></h4>
+                        </a>
+                      </div>
+                      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                        <div class="card-body">
+                            <code>Dump profile links and collect Name, Headline, Industry, Location, Summary as a .CSV file</code>
+                            <div class="form-group">
+                              <label for="comment">Paste Links:</label>
+                              <textarea class="form-control" rows="5" id="LUPS_text" placeholder="https://www.linkedin.com/in/username1/, https://www.linkedin.com/in/username2/, https://www.linkedin.com/in/username3/"></textarea>
+                            </div> 
+                              <a id='asd'></a>
+                              <button id="LUPS_btn" type="button" class="btn btn-warning">Warning</button>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                            <h4><kbd>More Tools</kbd></h4>
+                        </a>
+                      </div>
+                      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                          <p>updating..</p>
+                        </div>
+                      </div>
+                    </div>
+                  
+                  
+                  
+                  </div>
+      </div>   
+</body>
+
+
+</html>
