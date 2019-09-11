@@ -1,15 +1,13 @@
 from flask import Flask, jsonify,request,render_template,make_response
 from flask import *
-import urllib.request
 import json 
-import requests
 from linkedin_api import Linkedin
 
 app = Flask(__name__)
 app.secret_key = "spc"
 
 ### Credentials ##############################################################################################################
-api = Linkedin('akhilkishorek13@gmail.com', 'AKHIL12345')
+api = Linkedin('hr.talentsourcingnow@gmail.com', 'hr123456')
 ##############################################################################################################################
 
 

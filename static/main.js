@@ -104,7 +104,6 @@ $(document).ready(function(){
                     for(var x = 0; x< data.length;x++){
                         new_data.push(data[x]);
                     }
-                    alert(new_data);
                     downloadCSV(new_data);
               });
 
